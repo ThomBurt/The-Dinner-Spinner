@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dinner History</title>
+    <link rel="shortcut icon" href="css\img\The Dinner Spinner-A.png" type="image/x-icon">
+    <link rel="stylesheet" href="css\dinner-history.css">
+             <!--Import Google Icon Font-->
+             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+             <!--Import materialize.css-->
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+             <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400;700;900&display=swap" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="assets\images\Logo White.png" alt="The Dinner Spinner Logo" height="150px" class="left">
+        <button id="history-go-back-button" class="btn-floating btn-large waves-effect waves-light red my-button right z-depth-5"><i class="material-icons right">reply</i></button>
+     </header>
+    
+    <main>
+      <div class="container container-main z-depth-5">
+     
+         <!--row 1 - WHAT DO YOU WANT TO EAT-->
+         <div class="row valign-wrapper">
+             <div class="col s12">
+                 <h2 class="center dinner-hist-txt">Your Dinner History</h2> 
+             </div>
+         </div>
+
+
+         <div class="center restaurant-list" id="dinnerHistory">
+         </div>
+
+
+         <!--search button-->
+         <div class="row">
+             <div class="col s12 center-align">
+                  <button id="go-home-button" class="go-home-button btn btn-large waves-effect waves-light orange darken-4 z-depth-2">Go Home <i class="material-icons right">home</i></button>
+                  <!-- <button id="clear-button" class="go-home-button btn btn-large waves-effect waves-light red accent-4 z-depth-2">Clear Dinner History<i class="material-icons right">cancel</i></button> -->
+              </div>
+         </div>
+      </div>
+
+    </main>
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <script src='js/dinner-history.js'></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

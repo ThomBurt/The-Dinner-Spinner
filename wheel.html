@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\wheel-thom.css">
+    <link rel="shortcut icon" href="css\img\The Dinner Spinner-A.png" type="image/x-icon">
+    <title>The Dinner Wheel</title>
+</head>
+<body>
+    <header>
+        <img src="assets\images\The Dinner Spinner-A.png" alt="The Dinner Spinner Logo" height="150px">
+        <div class="center">
+            <button id="wheeltoSearchBtn" class="search-button btn btn-large waves-effect waves-light green z-depth-2 btn-small btn-move1">Back to Search</button>
+            <button id="wheelToHistoryBtn" class="dinner-search-button btn btn-large waves-effect waves-light deep-orange darken-1 z-depth-2 btn-small btn-move2">Your Dinner History</button> 
+        </div>    
+    </header>
+
+
+
+    <div id="chart"></div>
+    <div id="question"><h1></h1></div>
+
+
+
+    <!-- list of restaurants-->
+    <section>
+        <div class="flex">
+            <div class="container-main z-depth-5">
+                <div class="row">
+                    <div class="col l12">
+                        <h4>List of Restaurants</h4>
+                        <div>
+                            <form id="choiceDiv"></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Buttons-->
+    <div class="grid-example col s12 btn-align">
+        <button id="wheeltoSearchBtn" class="search-button btn btn-large waves-effect waves-light green z-depth-2 btn-small btn-move1">Back to Search</button>
+        <button id="wheelToHistoryBtn" class="dinner-search-button btn btn-large waves-effect waves-light deep-orange darken-1 z-depth-2 btn-small btn-move2">Your Dinner History</button> 
+    </div>           
+        
+             
+    <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4 id="info-modal-heading">Congratulations!</h4>
+                <p id="info-modal-content">You made a great dinner choice!</p>
+                <br>
+                <a href="#" class="modal-close btn orange">Continue</a>
+            </div>
+        </div>
+    </section>                  
+                        
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js\wheel.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

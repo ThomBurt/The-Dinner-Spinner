@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dinner Spinner</title>
+         <!--Import Google Icon Font-->
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <!--Import materialize.css-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400;700;900&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="shortcut icon" href="css\img\The Dinner Spinner-A.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/homepage.css">
+
+</head>
+<body>
+
+ <header>
+    <img src="assets\images\The Dinner Spinner-A.png" alt="The Dinner Spinner Logo" height="150px" >
+    <button id="go-back-button" class="btn-floating btn-large waves-effect waves-light green my-button right z-depth-5"><i class="material-icons right">reply</i></button>
+ </header>
+
+ <main>
+   <div class="container container-main z-depth-5">
+
+    <!--row 1 - WHAT DO YOU WANT TO EAT-->
+    <div class="row valign-wrapper">
+        <div class="col s6">
+            <p class="left text">What do you want to eat? <i class="material-icons">restaurant</i> </p> 
+      </div>
+        <div class="right cuisine-list-style col s6 input-field">
+            <select name="category" id="category">
+                <option value="">Choose a Cuisine!</option>
+                <option value="italian">Italian</option>
+                <option value="seafood">Seafood</option>
+                <option value="american">American</option>
+                <option value="mexican">Mexican</option>
+                <option value="thai">Thai</option>
+                <option value="indian">Indian</option>
+                <option value="chinese">Chinese</option>
+                <option value="">Random</option>
+            </select>
+        </div>        
+    </div>
+
+    <!-- Row 2 - WITHIN
+    <div class="row valign-wrapper">
+        <div class="col s6">
+            <p class="left text">Within: <i class="material-icons">place</i></p> 
+        </div>
+        <div class="right cuisine-list-style col s6">
+            <input type="text" list="mile-list" placeholder="How many miles?" class="input-styling">
+            <datalist id="mile-list"> 
+                <option value="1 Mile"></option>
+                <option value="2 Miles"></option>
+                <option value="5 Miles"></option>
+                <option value="10 Miles"></option>
+
+            </datalist>
+        </div>        
+    </div> -->
+
+    <!--Row 3 - City-->
+        <div class="row valign-wrapper">
+            <div class="col s6 ">
+                <p class="left text">City: <i class="material-icons">place</i></p> 
+            </div>
+            <div class="input-field col s6 cuisine-list-style">
+                <input placeholder="Enter City Name" id="city-name" type="text" class="validate">
+            </div>        
+        </div>
+
+    <div class="row">
+        <div class="col right">
+            <button id="current-location" class="btn waves-effect waves-light green lighten-1 "><i class="material-icons right">place</i>Use Current Location</button>
+        </div>
+    </div>
+
+        <!--search button-->
+        <div class="row">
+            <div class="col s12 center-align">
+                <button id="search-button" class="search-button btn btn-large waves-effect waves-light green z-depth-2">Search</button>
+            </div>
+        </div>
+
+      <!--dinner history button-->
+  <footer class="page-footer transparent left">
+        <div class="col s12">
+            <button id="dinner-history-button" class="dinner-search-button btn btn-large waves-effect waves-light deep-orange darken-1 z-depth-2 ">
+                <i class="material-icons right">favorite restaurant</i> Your Dinner History</button>
+        </div>
+  </footer>
+
+
+ </main>
+    <script src="js\script.js"></script>
+    <script src="./js/homepage.js"></script>
+    <script src="./js/yelp.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+Client ID
+2YK3asiowJO3PPTDc1U8bA
+
+API Key
+BwjMRahHQdbyDyCwVosSo66JqF03E-r8I2pchcGVYzo9-oTyDpW90QqrVJaWKSLP7QKyTycQzmGnRj0ydci_yTj6M5jYtsn8782nc2tUHD7esqPxuWl0UudmW_7dYXYx
+
+
+
+https://api.yelp.com/v3/businesses/search
+
+?term=restaurants&location=
+
+
+
+https://api.yelp.com/oauth2/token
+
+
+
+Authorization:
+Bearer BwjMRahHQdbyDyCwVosSo66JqF03E-r8I2pchcGVYzo9-oTyDpW90QqrVJaWKSLP7QKyTycQzmGnRj0ydci_yTj6M5jYtsn8782nc2tUHD7esqPxuWl0UudmW_7dYXYx

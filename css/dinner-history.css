@@ -1,0 +1,43 @@
+body {
+    background-image: url('../assets/images/burger.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    margin: 15px;
+}
+
+.container-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 40%;
+    height: 380px;
+    /* background-color: #3f7832; */
+    background-image: linear-gradient(to bottom right, #cb6a0f, #e3c391);
+    border-radius: 2%;
+    opacity: 96%;
+    /* box-shadow: 0 0 0 5px rgba(200,203,181, .2); */
+}
+
+.dinner-hist-txt {
+    color: white;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.restaurant-list {
+    margin-bottom: 10px;
+    color: #692205;
+}
+
+.go-home-button {
+    margin-top: 10px;
+}
+
